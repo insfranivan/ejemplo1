@@ -9,12 +9,6 @@ body{
   margin-top: 0px;
 }
 
-nav {
-
-  text-decoration: none;
-
-}
-
 h1,
 h2,
 h3,
@@ -52,6 +46,7 @@ header {
 header .header-content {
 text-align: center;
 padding: 450px 0 50px
+display: flex;
 
 }
 
@@ -106,37 +101,20 @@ section .text {
 
 }
 
-section.cta {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+#background-image {
+  background-image: url("img/usuario.jpg");
   background-position: center;
-  background-image: url('usuario.jpeg');
+  background-repeat: no-repeat;
+}
+
+.start-building {
   padding: 250px 0;
+  display: flex;
+  align-items: center;
+  font-size: 52px;
+  color: #ffffff;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73)17%, rgba(0, 0, 0, 0.66)35%, rgba(0, 0, 0, 0.55)62%, rgba(0, 0, 0, 0.4)100%);
 }
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-section.cta .cta-content h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 50px;
-}
-
-section.cta .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 
 section .section-contact {
   background: #fdc948; color: #fffdf8;
